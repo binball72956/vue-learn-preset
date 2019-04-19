@@ -1,10 +1,10 @@
 import Vue from 'vue'
-<% if(options.elementUI) {%>
-import ElementUI form 'ElementUI'
+<%_ if(options.elementUI) { _%>
+import ElementUI from 'ElementUI'
 Vue.use(ElementUI)
-<%}%>
+<%_ } _%>
 
-<% if(options.vuex) {%>
-import Vuex form 'vuex'
+<%_ if(options.vuex) { _%>
+import Vuex from 'vuex'
 Vue.use(Vuex)
-<%}%>
+<%_ } _%>
