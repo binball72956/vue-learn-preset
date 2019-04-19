@@ -1,13 +1,31 @@
 {
-  "useTaobaoRegistry": false,
-  "packageManager": "yarn",
-  "presets": {
-    "vue-learn-preset": {
-      "useConfigFiles": true,
-      "router": true,
-      "vuex": false,
-      "cssPreprocessor": "less",
-      "plugins": {}
+  "useConfigFiles": true,
+  "router": true,
+  "vuex": false,
+  "cssPreprocessor": "less",
+  "plugins": {},
+  "configs": {
+    "vue": {
+      "baseUrl": "/",
+      "outputDir": "dist",
+      "assetsDir": "assets",
+      "pages": {
+        "index": {
+          "entry": "src/main.js",
+          "template": "public/index.html",
+          "filename": "index.html",
+          "title": "首页"
+        }
+      },
+      "devServer": {
+        "open": true,
+        "host": "127.0.0.1",
+        "https": false,
+        "hotOnly": false,
+        "proxy": null
+      }
     }
   }
 }
+      
+    
