@@ -1,7 +1,13 @@
 {
-  "useConfigFiles": true,
-  "router": true,
-  "vuex": false,
-  "cssPreprocessor": "less",
-  "plugins": {}
+  "useTaobaoRegistry": false,
+  "packageManager": "yarn",
+  "presets": {
+    "vue-learn-preset": {
+      "useConfigFiles": true,
+      "router": true,
+      "vuex": false,
+      "cssPreprocessor": "less",
+      "plugins": {}
+    }
+  }
 }
